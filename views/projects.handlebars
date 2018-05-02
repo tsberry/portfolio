@@ -2,17 +2,15 @@
     <h2 class="panel-title">My Projects</h2>
 </div>
 <div class="panel-body">
-    <ul>
         {{#each projects}}
         <div class="col-xs-6">
             <div class="work">
                 <a href="{{repository}}">
-                    <img class="img-responsive" src="{{image}}" alt="{{name}}">
+                    <img src="{{image}}" alt="{{name}}">
                 </a>
 
                 <h3>{{name}}</h3>
             </div>
         </div>
         {{/each}}
-    </ul>
 </div>
